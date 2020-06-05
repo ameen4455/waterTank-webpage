@@ -22,7 +22,7 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
 </head>
 <body >
-<nav class="navbar navbar-color-on-scroll fixed-top  navbar-expand-lg "  id="sectionsNav">
+<nav class="navbar  fixed-top  navbar-expand-lg "  id="sectionsNav">
   <div class="container">
     <div class="navbar-translate">
       <picture>
@@ -74,7 +74,7 @@
           </div>
         </li>
         <li class="button-container nav-item iframe-extern">
-          <a href="../index.html#contactss" class="btn  btn-rose   btn-round btn-block">
+          <a href="../index.html#contactss" class="btn  btn-rose btn-round btn-block">
             <i class="material-icons">phone</i>  Contact Us
           </a>
         </li>
@@ -99,14 +99,29 @@
         <source srcset="../assets/img/14.jpg" type="image/jpg"> 
         <img data-image="blue" src="../assets/img/14.jpg" width="100%" style="border-radius: 20px;">
     </picture>
+
+    <div class="litre">
+    
+      <a tabindex="0" class="btn"  style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold">Litre</a>
+    <a tabindex="0" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus" data-placement="bottom"
+     data-content="width:500 height :200">750</a>
+     <a tabindex="0" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus" data-placement="bottom"
+     data-content="width:500 height :200">1000</a>
+     <a tabindex="0" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus" data-placement="bottom"
+     data-content="width:500 height :200">1500</a>
+    </div>
   </div>
 
+  
 
   <!-- Right Column -->
   <div class="right-column">
 
     <!-- Product Description -->
-    <div class="product-description">
+    <div class="product-description" id="top">
   
       <h2>Slim Fit - Loft Tank</h2>
       <p>Megha Slim Fit Loft Tank fine crafted in FDA standard materials is best suited for customers looking for compact water tanks. Their stylish design makes them the most appropriate water storage solutions for indoor, particularly in space constrained areas. Slim Fit Loft Tanks are available in multiple assortments, such as single, double and triple layered water tanks. In three layered tanks, the outer white layer maintains the temperature of water, the middle black layer provides UV protection and the inner white layer gives better visibility inside the tank.</p>
@@ -140,18 +155,113 @@
     </div>
 
     <!-- Product Pricing -->
-    <div class="product-price">
-      <span>• Fine crafted for indoors<br>
+    <div  class="product-description">
+      <p>• Fine crafted for indoors<br>
         • Slim and compact designs ideal for saving space<br>
         • Rust- and leak-proof for storage of drinking water<br>
         • Manufactured from food grade plastics<br>
         • Trendy looking<br>
         • Stores clean and hygienic water<br><br>
-        • Litre: 750 | 1000 | 1500
-      </span>
+      </p>
     </div>
+    <a href="#contactss" class="btn  btn-rose btn-round " style="letter-spacing: 2px;font-weight:bold;margin-bottom:50px">
+      <!-- <i class="material-icons">phone</i>  Contact Us -->
+        Get Enquiry
+    </a>
+    <div class="litreMob">
+    
+      <a tabindex="1" class="btn"  style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold">Litre</a>
+    <a tabindex="1" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus" 
+     data-content="width:500 height :200">750</a>
+     <a tabindex="0" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus" 
+     data-content="width:500 height :200">1000</a>
+     <a tabindex="0" class="btn btn-secondary" role="button" 
+    data-toggle="popover" data-trigger="focus"
+     data-content="width:500 height :200">1500</a>
+    </div>
+
+    
+  </div>
   </div>
 </main>
+<div class="contactus-1 section-image" id="contactss" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h2 class="title">Get in Touch</h2>
+        <h5 class="description">You need more information? Check what other persons are saying about our product. They are very happy with their purchase.</h5>
+        <div class="info info-horizontal">
+          <div class="icon icon-primary">
+            <i class="material-icons">pin_drop</i>
+          </div>
+          <div class="description">
+            <h4 class="info-title">Find us at the office</h4>
+            <p> 1, Edappally,
+              <br> Koonanthai,
+              <br> Kochi
+              <br> Ernakulam, 682024
+            </p>
+          </div>
+        </div>
+        <div class="info info-horizontal">
+          <div class="icon icon-primary">
+            <i class="material-icons">phone</i>
+          </div>
+          <div class="description">
+            <h4 class="info-title">Give us a ring</h4>
+            <p> 
+               +91-8071266250
+              <br> Mon - Sat, 9:30 am - 6:00 pm
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 ml-auto">
+        <div class="card card-contact">
+          <form id="contact-form" action="contact.php" method="post" name="contactform"  >
+            <div class="card-header card-header-raised card-header-primary text-center" style="border-radius: 20px;">
+              <h3 class="card-title" style="letter-spacing:1px">Contact Us</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating"> Name</label>
+                    <input type="text" name="name" class="form-control">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating">Phone Number</label>
+                    <input type="text" name="phone" class="form-control">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group label-floating is-empty">
+                <label class="bmd-label-floating">Email address</label>
+                <input type="email" name="email" class="form-control">
+                <span class="material-input"></span>
+              </div>
+              <div class="form-group label-floating is-empty">
+                <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
+                <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                <span class="material-input"></span>
+              </div>
+            </div>
+            <div class="card-footer justify-content-between">
+              <input class="btn btn-primary pull-right" type="submit" value="Send" style="background-color:#e91e63">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <footer class="footer footer-default">
   <div class="container">
     <div class="copyright float-right">

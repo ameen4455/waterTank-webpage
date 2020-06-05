@@ -19,13 +19,19 @@ html, body {
   position: relative;
   margin-top:30px;
   margin-right:100px;
+  flex-direction: column;
 }
 .right-column {
   width:50%;
   position: relative;
 }
 
-
+.litre{
+  margin-top:500px;
+}
+.litreMob{
+ display:none
+}
 
 /* Left Column */
 .left-column img {
@@ -210,10 +216,18 @@ html, body {
   .left-column{
     margin-right:0px;
   }
-  .product-description {
+  #top {
     margin-top: 200px;
   }
   .right-column{
     width:100%
+  }
+  .litre{
+    margin-top:0px;
+    display:none
+  }
+  .litreMob{
+    margin-top:0px;
+    display:block
   }
 }
