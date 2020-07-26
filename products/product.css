@@ -27,7 +27,8 @@ html, body {
 }
 
 .litre{
-  margin-top:500px;
+  display: block;
+ padding-top:650px;
 }
 .litreMob{
  display:none
