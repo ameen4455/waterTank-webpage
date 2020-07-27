@@ -88,28 +88,41 @@
   <div class="left-column">
     <!-- <img data-image="red" class="active" src="images/5.webp" alt="">
     <img data-image="blue" src="images/6.webp" alt=""> -->
-    <picture>
-      <source data-image="red" srcset="../assets/img/slimfit.jpg" type="image/webp">
-        <source srcset="../assets/img/6.jpg" type="image/jpg"> 
-        <img data-image="red" class="active"src="../assets/img/6.jpg" width="100%" height="600px" style="border-radius: 20px;">
+    <picture >
+      <source data-image="red" srcset="../assets/img/basic.jpg" type="image/webp">
+        <source srcset="../assets/img/6.jpg" type="image/jpg">
+         
+        <img data-image="red" class="active"src="../assets/img/6.jpg" id="resize" style="border-radius: 20px">
+     
     </picture>
     <picture>
-      <source data-image="blue" srcset="../assets/img/slimfitb.jpg" type="image/webp">
+      <source data-image="blue" srcset="../assets/img/basicb.jpg" type="image/webp">
         <source srcset="../assets/img/14.jpg" type="image/jpg"> 
-        <img data-image="blue" src="../assets/img/14.jpg" width="100%" height="600px"style="border-radius: 20px;">
+        <img data-image="blue" src="../assets/img/14.jpg" style="border-radius: 20px;" id="resize" >
     </picture>
+    
     <div class="litre">
     
-      <a tabindex="0" class="btn"  style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold">Litre</a>
-    <a tabindex="0" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus" data-placement="bottom"
-     data-content="width:500 height :200">750</a>
-     <a tabindex="0" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus" data-placement="bottom"
-     data-content="width:500 height :200">1000</a>
-     <a tabindex="0" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus" data-placement="bottom"
-     data-content="width:500 height :200">1500</a>
+     
+      <button type="button" class="btn " style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold" >
+       Litre
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true" title="diameter: 500<br>height: 200">
+        750
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        1000
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true"title="diameter: 500<br>height: 200">
+        1000
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        1500
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        2000
+      </button>
+
     </div>
     
   </div>
@@ -122,7 +135,7 @@
     <!-- Product Description -->
     <div class="product-description" id="top">
   
-      <h2>Slim Fit - Loft Tank</h2>
+      <h2 class="mainheading">Beauty White</h2>
       <p>Megha Slim Fit Loft Tank fine crafted in FDA standard materials is best suited for customers looking for compact water tanks. Their stylish design makes them the most appropriate water storage solutions for indoor, particularly in space constrained areas. Slim Fit Loft Tanks are available in multiple assortments, such as single, double and triple layered water tanks. In three layered tanks, the outer white layer maintains the temperature of water, the middle black layer provides UV protection and the inner white layer gives better visibility inside the tank.</p>
     </div>
 
@@ -169,16 +182,25 @@
     </a>
     <div class="litreMob">
     
-      <a tabindex="1" class="btn"  style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold">Litre</a>
-    <a tabindex="1" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus" 
-     data-content="width:500 height :200">750</a>
-     <a tabindex="0" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus" 
-     data-content="width:500 height :200">1000</a>
-     <a tabindex="0" class="btn btn-secondary" role="button" 
-    data-toggle="popover" data-trigger="focus"
-     data-content="width:500 height :200">1500</a>
+      <button type="button" class="btn " style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold" >
+        Litre
+       </button>
+       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true" title="diameter: 500<br>height: 200">
+         750
+       </button>
+       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+         1000
+       </button>
+       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true"title="diameter: 500<br>height: 200">
+         1000
+       </button>
+       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+         1500
+       </button>
+       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+         2000
+       </button>
+ 
     </div>
 
     
