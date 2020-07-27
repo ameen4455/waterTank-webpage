@@ -28,7 +28,8 @@ html, body {
 
 .litre{
   display: block;
- padding-top:650px;
+ padding-top:800px;
+margin-bottom:30px;
 }
 .litreMob{
  display:none
@@ -205,7 +206,9 @@ html, body {
 .cart-btn:hover {
   background-color: #64af3d;
 }
-
+.mainheading{
+  font-weight:700
+}
 /* Responsive */
 
 
@@ -218,7 +221,7 @@ html, body {
     margin-right:0px;
   }
   #top {
-    margin-top: 200px;
+    margin-top: 350px;
   }
   .right-column{
     width:100%
@@ -230,5 +233,8 @@ html, body {
   .litreMob{
     margin-top:0px;
     display:block
+  }
+  #resize{
+  
   }
 }
