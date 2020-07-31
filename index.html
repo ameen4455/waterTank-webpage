@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/logo1.jpg">
+  <link rel="icon" type="image/png" href="./assets/images/logo1.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Megha WaterTank
+    Megha Tanks
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
     name='viewport' />
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="./assets/css/material-kit.min.css?v=2.2.0" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet">
   <!-- CSS Just for demo purpose, don't include it in your project -->
 </head>
 
@@ -24,11 +25,9 @@
   <nav class="navbar  fixed-top navbar-expand-lg" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <picture>
-          <source srcset="./assets/images/nobg.png" type="image/webp">
-          <source srcset="./assets/images/nobg.png" type="image/jpg">
-          <img src="./assets/images/nobg.png" height="60">
-        </picture>
+       
+          <img src="./assets/images/logo4.jpg" height="55">
+       
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
@@ -40,47 +39,58 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="./index.html"  class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:1px">
+            <a href="./index.html"  class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
            Home
             </a>
           </li>
           <li class="nav-item">
-            <a href="./About.html" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px">
+            <a href="./about.html" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
               About Us
             </a>
           </li>
           <li class="nav-item">
-            <a href="#news" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px">
+            <a href="../index.html#news" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
               Latest News
             </a>
           </li>
           <li class="nav-item">
-            <a href="#news" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px">
+            <a href="downloadpdf.php?file=brochure" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
               Brochure
             </a>
           </li>
           <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px" id="multiDropdownMenu">
            Products
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="./products/beautywhite.html" class="dropdown-item">
-                Beauty White - Black Star
+              <a href="./products/beautywhite.html" class="dropdown-item"  style="font-weight: 900;letter-spacing:0.5px" >
+                Cylindrical Tank
               </a>
-              <a href="./products/earthmaster.html" class="dropdown-item">
-               Earth Master
+              <a href="./products/earthmaster.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+               Underground Tank
               </a>
-              <a href="./products/loftfit.html" class="dropdown-item">
-                Loft Fit
+              <a href="./products/beautywhite.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                Capsule Tank
               </a>
-              <a href="./products/slimfit.html" class="dropdown-item">
-                Slim Fit
-              </a>
+              
+                <a href="#" class="dropdown-item dropdown-toggle" style=" font-weight: 900;padding-left:20px;color:rgb(20, 20, 20);letter-spacing:0.5px;text-transform: capitalize">
+               Flat tank
+                </a>
+               
+                <div class="dropdown-menu dropdown-with-icons">
+                  <a href="./products/loftfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                     Loft Fit Tank
+                  </a>
+                  <a href="./products/slimfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                    Slim Fit Tank   
+                  </a>
+                  </div>
+                  
             </div>
           </li>
           <li class="button-container nav-item iframe-extern">
-            <a href="#contactss" class="btn  btn-rose   btn-round btn-block" style="font-weight: 900;letter-spacing:1px">
-              <i class="material-icons">phone</i>  Contact Us
+            <a href="#contactss" class="btn  btn-rose   btn-round btn-block" style="font-weight: 900;letter-spacing:1px;">
+              <i class="material-icons" style="padding-right:5px">phone</i> Contact Us
             </a>
           </li>
         </ul>
@@ -106,8 +116,8 @@
     <div class="section text-center">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
-          <h2 class="title" id="about">About our Organisation</h2>
-          <h5 class="description" style="padding-left:10px;padding-right:10px">Megha Water Tanks is a prominent name
+          <h2 class="section-heading">About Our Organisation</h2>
+          <h5 class="des" style="padding-left:10px;padding-right:10px">Megha Water Tanks is a prominent name
             among plastic water store tank manufacturers in South India. It is a premium product of Cochin Polymers Pvt
             Ltd. The name Cochin Polymers Pvt Ltd is written in golden letters in the history of rotational molding
             industry in Kerala with the beginning of its first facility in 1993.</h5>
@@ -120,8 +130,8 @@
               <div class="icon icon-info">
                 <img src="./assets/images/guarantee.png" style="height:64px;width:64px">
               </div>
-              <h4 class="info-title">Guarantee</h4>
-              <p>Megha Water Tank provides<br> 10 year guarantee</p>
+              <h4 class="card-title">Guarantee</h4>
+              <p class="des">Megha Tanks provides<br> 10 year guarantee</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -129,8 +139,8 @@
               <div class="icon icon-success">
                 <img src="./assets/images/sun.png" style="height:64px;width:64px">
               </div>
-              <h4 class="info-title">Protection</h4>
-              <p>UV protection by<br> Sunsmart technology</p>
+              <h4 class="card-title">Protection</h4>
+              <p class="des">UV protection by<br> Sunsmart technology</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -138,8 +148,8 @@
               <div class="icon icon-danger">
                 <img src="./assets/images/durable.png" style="height:64px;width:64px">
               </div>
-              <h4 class="info-title">Durability</h4>
-              <p>Elegant design <br> and extreme durability</p>
+              <h4 class="card-title">Durability</h4>
+              <p class="des">Elegant design <br> and extreme durability</p>
             </div>
           </div>
         </div>
@@ -153,11 +163,25 @@
     <!--     *********    TEAM 4     *********      -->
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto text-center">
-        <h2 class="title" id="about">Our Products</h2>
+        <h2 class="section-heading">Our Products</h2>
       </div>
     </div>
 
     <div class="row">
+      <div class="product ml-auto mr-auto ">
+      <div class="card card-blog ml-auto mr-auto " style="max-width: 360px;">
+        <div class="card-header card-header-image">
+          <a href="#pablo" class="">
+            <img class="img " src="./assets/img/basic.jpg">
+
+          </a>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">Beauty white</h4>
+        </div>
+      </div>
+    </div>
+    <div class="product ml-auto mr-auto ">
       <div class="card card-blog ml-auto mr-auto" style="max-width: 360px;">
         <div class="card-header card-header-image">
           <a href="#pablo">
@@ -169,17 +193,37 @@
           <h4 class="card-title">Black star</h4>
         </div>
       </div>
+    </div>
+    <div class="product ml-auto mr-auto ">
+      <div class="card card-blog ml-auto mr-auto" style="max-width: 360px;">
+        <div class="card-header card-header-image">
+          <a href="#pablo">
+            <img class="img" src="./assets/img/capsule.jpg">
+
+          </a>
+        </div>
+      
+        <div class="card-body text-center">
+          <h4 class="card-title">Capsule Tank</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="product ml-auto mr-auto ">
       <div class="card card-blog ml-auto mr-auto" style="max-width: 360px;">
         <div class="card-header card-header-image">
           <a href="#pablo" class="">
-            <img class="img" src="./assets/img/basic.jpg">
+            <img class="img" src="./assets/img/slimfit.jpg">
 
           </a>
         </div>
         <div class="card-body text-center">
-          <h4 class="card-title">Beauty white</h4>
+          <h4 class="card-title">Slim Fit</h4>
         </div>
       </div>
+      </div>
+       <div class="product ml-auto mr-auto ">
       <div class="card card-blog ml-auto mr-auto" style="max-width: 360px;">
         <div class="card-header card-header-image">
           <a href="#pablo">
@@ -191,31 +235,44 @@
           <h4 class="card-title">Earth master</h4>
         </div>
       </div>
-    </div>
+       </div>
+       <div class="product ml-auto mr-auto ">
+      <div class="card card-blog ml-auto mr-auto" style="max-width: 360px;">
+        <div class="card-header card-header-image">
+          <a href="#pablo">
+            <img class="img" src="./assets/img/loftfit.jpg">
 
+          </a>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">Loft Fit</h4>
+        </div>
+      </div>
+    </div>
+    </div>
     <!--     *********    END TEAM 4      *********      -->
     <div class="projects-1" id="projects-1">
       <div class="container">
         <div class="row" id="news">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title" id="about">Latest News</h2>
-            <div class="tab-content tab-space">
+            <h2 class="section-heading">Latest News</h2>
+            <!-- <div class="tab-content tab-space">
               <div class="tab-pane active" id="pill1">
               </div>
               <div class="tab-pane" id="pill2">
               </div>
               <div class="tab-pane" id="pill3">
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
             <div class="card card-raised card-background"
               style="background-image: url('./assets/img/4.jpg'); height: 400px;opacity:0.9">
-              <div class="card-body" style="padding-top: 255px;">
+              <div class="card-body" style="padding-top: 245px;">
                 <a href="./news1.html">
-                  <h3 class="card-title" style="letter-spacing:2px"> Underground Water Tanks</h3>
+                  <h3 class="section-heading" style="color:white"> Underground Water Tanks</h3>
                 </a>
                 <!-- <p class="card-description">
                   Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
@@ -231,7 +288,7 @@
               style="background-image: url('./assets/img/3.jpg'); height: 400px;opacity:0.9">
               <div class="card-body" style="padding-top: 210px;">
                 <a href="./news2.html">
-                  <h3 class="card-title" style="letter-spacing:2px border-width:1px">Black Star Premium Water Tanks</h3>
+                  <h3 class="section-heading" style="color:white">Black Star Premium Water Tanks</h3>
                 </a>
                 <!-- <p class="card-description">
                   Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
@@ -245,8 +302,8 @@
           <div class="col-md-12">
             <div class="card card-raised card-background "
               style="background-image: url('./assets/img/11.jpg'); height: 400px;opacity:0.9">
-              <div class="card-body" style="padding-top: 250px;">
-                <h3 class="card-title" style="letter-spacing:2px">25 years of experience</h3>
+              <div class="card-body" style="padding-top: 255px;">
+                <h3 class="section-heading" style="color:white">25 years of experience</h3>
                 <!-- <p class="card-description">
 With 25 years & Experience, Megha Water Tank            </p> -->
                 <a href="./news3.html" class="btn  btn-rose  btn-round">
@@ -267,15 +324,15 @@ With 25 years & Experience, Megha Water Tank            </p> -->
             <div class="row">
               <div class="col-md-5">
                 <h2 class="title">Get in Touch</h2>
-                <h5 class="description">You need more information? Check what other persons are saying about our
-                  product. They are very happy with their purchase.</h5>
+                <!-- <h5 class="description">You need more information? Check what other persons are saying about our
+                  product. They are very happy with their purchase.</h5> -->
                 <div class="info info-horizontal">
                   <div class="icon icon-primary">
                     <i class="material-icons">pin_drop</i>
                   </div>
                   <div class="description">
                     <h4 class="info-title">Find us at the office</h4>
-                    <p> 1, Edappally,
+                    <p class="desc"> 1, Edappally,
                       <br> Koonanthai,
                       <br> Kochi
                       <br> Ernakulam, 682024
@@ -288,8 +345,8 @@ With 25 years & Experience, Megha Water Tank            </p> -->
                   </div>
                   <div class="description">
                     <h4 class="info-title">Give us a ring</h4>
-                    <p>
-                      +91-8071266250
+                    <p class="desc"> 
+                      +91- 8071266250
                       <br> Mon - Sat, 9:30 am - 6:00 pm
                     </p>
                   </div>
@@ -300,7 +357,7 @@ With 25 years & Experience, Megha Water Tank            </p> -->
                   <form id="contact-form" action="contact.php" method="post" name="contactform">
                     <div class="card-header card-header-raised card-header-primary text-center"
                       style="border-radius: 20px;">
-                      <h3 class="card-title" style="letter-spacing:1px">Contact Us</h3>
+                      <h4 class="section-heading" style="color:white;letter-spacing: 1px;">CONTACT US</h4>
                     </div>
                     <div class="card-body">
                       <div class="row">
@@ -333,7 +390,7 @@ With 25 years & Experience, Megha Water Tank            </p> -->
                     </div>
                     <div class="card-footer justify-content-between">
                       <input class="btn btn-primary pull-right" type="submit" value="Send"
-                        style="background-color:#e91e63">
+                        style="background-color:#e91e63;font-weight:900;letter-spacing:1px">
                     </div>
                   </form>
                 </div>
@@ -351,8 +408,8 @@ With 25 years & Experience, Megha Water Tank            </p> -->
           &copy;
           <script>
             document.write(new Date().getFullYear())
-          </script>, made with <i class="material-icons">favorite</i> by
-          <a>Triojans.</a>
+          </script>, made with <i class="material-icons">favorite</i> 
+          <!-- by<a>Triojans.</a> -->
         </div>
       </div>
     </footer>
