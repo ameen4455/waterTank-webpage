@@ -21,66 +21,79 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
 </head>
 <body >
-<nav class="navbar  fixed-top  navbar-expand-lg "  id="sectionsNav">
-  <div class="container">
-    <div class="navbar-translate">
-      <picture>
-        <source srcset="../assets/images/nobg.png" type="image/webp" >
-          <source srcset="../assets/images/nobg.png" type="image/jpg"> 
-          <img src="../assets/images/nobg.png" height="60">
-      </picture>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="../index.html" class="nav-link" >
-             Home
-          </a>
-        </li>
-        <li class="nav-item">
-        <a href="../About.html" class="nav-link" >
-          About Us
-        </a>
-      </li>
-        <li class="nav-item">
-          <a href="../index.html#news" class="nav-link" >
-            Latest News
-          </a>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+  <nav class="navbar  fixed-top navbar-expand-lg" id="sectionsNav" style="margin-top:-20px">
+    <div class="container">
+      <div class="navbar-translate">
+       
+          <img src="../assets/images/logo4.jpg" height="55">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="../index.html"  class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
+           Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../About.html" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html#news" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
+              Latest News
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="downloadpdf.php?file=brochure" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
+              Brochure
+            </a>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.7px">
            Products
-          </a>
-          <div class="dropdown-menu dropdown-with-icons">
-            <a href="./products/slimLoft.html" class="dropdown-item">
-              Slim Fit - Loft Tank
             </a>
-            <a href="./About.html" class="dropdown-item">
-              Tank2
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="../products/beautywhite.html" class="dropdown-item"  style="font-weight: 900;letter-spacing:0.5px" >
+                Cylindrical Tank
+              </a>
+              <a href="../products/earthmaster.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+               Underground Tank
+              </a>
+              <a href="../products/capsule.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                Capsule Tank
+              </a>
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style=" font-weight: 900;padding-left:20px;color:rgb(20, 20, 20);letter-spacing:0.5px;text-transform: capitalize">
+               Flat tank
+                </a>
+                <div class="dropdown-menu dropdown-with-icons">
+                  <a href="../products/loftfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                    Slim Fit Tank
+                  </a>
+                  <a href="../products/slimfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+                    Loft Fit Tank
+                  </a>
+                  </div>
+                  
+            </div>
+          </li>
+          <li class="button-container nav-item iframe-extern">
+            <a href="#contactss" class="btn  btn-rose   btn-round btn-block" style="font-weight: 900;letter-spacing:1px;">
+              <i class="material-icons" style="padding-right:5px">phone</i> Contact Us
             </a>
-            <a href="../presentation.html" class="dropdown-item">
-              Tank3
-            </a>
-            <a href="../presentation.html" class="dropdown-item">
-              Tank4
-            </a>
-          </div>
-        </li>
-        <li class="button-container nav-item iframe-extern">
-          <a href="../index.html#contactss" class="btn  btn-rose btn-round btn-block">
-            <i class="material-icons">phone</i>  Contact Us
-          </a>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 <main class="container" style="margin-top: 100px;">
 
@@ -90,15 +103,15 @@
     <img data-image="blue" src="images/6.webp" alt=""> -->
     <picture >
       <source data-image="red" srcset="../assets/img/basic.jpg" type="image/webp">
-        <source srcset="../assets/img/6.jpg" type="image/jpg">
+        <source srcset="../assets/img/basic.jpg" type="image/jpg">
          
-        <img data-image="red" class="active"src="../assets/img/6.jpg" id="resize" style="border-radius: 20px">
+        <img data-image="red" class="active"src="../assets/img/basic.jpg" id="resize" style="border-radius: 20px">
      
     </picture>
     <picture>
       <source data-image="blue" srcset="../assets/img/basicb.jpg" type="image/webp">
-        <source srcset="../assets/img/14.jpg" type="image/jpg"> 
-        <img data-image="blue" src="../assets/img/14.jpg" style="border-radius: 20px;" id="resize" >
+        <source srcset="../assets/img/basicb.jpg" type="image/jpg"> 
+        <img data-image="blue" src="../assets/img/basicb.jpg" style="border-radius: 20px;" id="resize" >
     </picture>
     
     <div class="litre">
@@ -135,7 +148,7 @@
     <!-- Product Description -->
     <div class="product-description" id="top">
   
-      <h2 class="mainheading">Beauty White</h2>
+      <h2 class="mainheading">Beauty White - Black Star</h2>
       <p>Megha Slim Fit Loft Tank fine crafted in FDA standard materials is best suited for customers looking for compact water tanks. Their stylish design makes them the most appropriate water storage solutions for indoor, particularly in space constrained areas. Slim Fit Loft Tanks are available in multiple assortments, such as single, double and triple layered water tanks. In three layered tanks, the outer white layer maintains the temperature of water, the middle black layer provides UV protection and the inner white layer gives better visibility inside the tank.</p>
     </div>
 
