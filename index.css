@@ -24,4 +24,7 @@ color: #8585A8;
         width:300px;
         margin-bottom: 200px;
     }
+    #flatmob{
+        display: none;
+    }
   }
