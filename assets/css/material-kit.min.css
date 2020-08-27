@@ -17455,10 +17455,9 @@ thead.thead-inverse th {
 
 .section-dark,
 .section-image {
-    background-color: #343434;
     background-size: 200% 240%;
     background: #232323;
-    background: radial-gradient(ellipse at center, #585858 0, #232323 100%);
+    background:url('../images/contact.jpg');
     background-size: 550% 450%
 }
 
