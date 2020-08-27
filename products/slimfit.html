@@ -20,7 +20,7 @@
   <script src="../assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
   <!-- CSS Just for demo purpose, don't include it in your project -->
 </head>
-<body class="landing-page sidebar-collapse">
+<body >
   <nav class="navbar  fixed-top navbar-expand-lg" id="sectionsNav" style="margin-top:-20px">
     <div class="container">
       <div class="navbar-translate">
@@ -53,7 +53,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="../downloadpdf.php?file=brochure" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
+            <a href="downloadpdf.php?file=Megha_Tanks_Brochure" class="nav-link" style="font-weight: 900; color:rgb(20, 20, 20);letter-spacing:0.5px">
               Brochure
             </a>
           </li>
@@ -68,25 +68,25 @@
               <a href="../products/earthmaster.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
                Underground Tank
               </a>
-              <a href="../products/beautywhite.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
+              <a href="../products/capsule.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
                 Capsule Tank
               </a>
-                <a href="#" class="dropdown-toggle nav-link" id="flatmob" data-toggle="dropdown" style=" font-weight: 900;padding-left:20px;color:rgb(20, 20, 20);letter-spacing:0.5px;text-transform: capitalize">
+                <a href="#" class="dropdown-toggle nav-link"  id="flatmob" data-toggle="dropdown" style=" font-weight: 900;padding-left:20px;color:rgb(20, 20, 20);letter-spacing:0.5px;text-transform: capitalize">
                Flat tank
                 </a>
                 <div class="dropdown-menu dropdown-with-icons">
                   <a href="../products/loftfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
-                    Slim Fit Tank
+                    Loft Fit Tank
                   </a>
                   <a href="../products/slimfit.html" class="dropdown-item" style="font-weight: 900;letter-spacing:0.5px">
-                    Loft Fit Tank
+                    Slim Fit Tank
                   </a>
                   </div>
                   
             </div>
           </li>
           <li class="button-container nav-item iframe-extern">
-            <a href="#contactss" class="btn  btn-rose   btn-round btn-block" style="font-weight: 900;letter-spacing:1px;">
+            <a href="#contacts" class="btn  btn-rose   btn-round btn-block" style="font-weight: 900;letter-spacing:1px;">
               <i class="material-icons" style="padding-right:5px">phone</i> Contact Us
             </a>
           </li>
@@ -101,35 +101,41 @@
   <div class="left-column">
     <!-- <img data-image="red" class="active" src="images/5.webp" alt="">
     <img data-image="blue" src="images/6.webp" alt=""> -->
-    <picture>
-      <source data-image="red" srcset="../assets/img/slimfit.jpg" type="image/webp">
-        <source srcset="../assets/img/slimfit.jpg" type="image/jpg"> 
-        <img data-image="red" class="active"src="../assets/img/slimfit.jpg" style="border-radius: 20px;">
+    <picture >
+      <source data-image="red" srcset="../assets/img/slimfit.png" type="image/webp">
+        <source srcset="../assets/img/slimfit.png" type="image/jpg">
+         
+        <img data-image="red" class="active"src="../assets/img/slimfit.png" id="resize" style="border-radius: 20px">
+     
     </picture>
     <picture>
-      <source data-image="blue" srcset="../assets/img/slimfitb.jpg" type="image/webp">
-        <source srcset="../assets/img/slimfitb.jpg" type="image/jpg"> 
-        <img data-image="blue" src="../assets/img/slimfitb.jpg" style="border-radius: 20px; ">
+      <source data-image="blue" srcset="../assets/img/slimfitb.png" type="image/webp">
+        <source srcset="../assets/img/slimfitb.png" type="image/jpg"> 
+        <img data-image="blue" src="../assets/img/slimfitb.png" style="border-radius: 20px;" id="resize" >
+    </picture>
+    
     <div class="litre">
     
+     
       <button type="button" class="btn " style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold" >
-        Litre
-       </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true" title="Diameter: 500<br>Height: 200">
-         750
-       </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
-         1000
-       </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true"title="diameter: 500<br>height: 200">
-         1000
-       </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
-         1500
-       </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
-         2000
-       </button>
+       Litre
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true" title="diameter: 500<br>height: 200">
+        750
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        1000
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true"title="diameter: 500<br>height: 200">
+        1000
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        1500
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
+        2000
+      </button>
+
     </div>
     
   </div>
@@ -142,7 +148,7 @@
     <!-- Product Description -->
     <div class="product-description" id="top">
   
-      <h2 class="mainheading">Slim Fit</h2>
+      <h2 class="mainheading">SlimFit tank</h2>
       <p>Megha Slim Fit Loft Tank fine crafted in FDA standard materials is best suited for customers looking for compact water tanks. Their stylish design makes them the most appropriate water storage solutions for indoor, particularly in space constrained areas. Slim Fit Loft Tanks are available in multiple assortments, such as single, double and triple layered water tanks. In three layered tanks, the outer white layer maintains the temperature of water, the middle black layer provides UV protection and the inner white layer gives better visibility inside the tank.</p>
     </div>
 
@@ -183,7 +189,7 @@
         • Stores clean and hygienic water<br><br>
       </p>
     </div>
-    <a href="#contactss" class="btn  btn-rose btn-round " style="letter-spacing: 2px;font-weight:bold;margin-bottom:50px">
+    <a href="#contacts" class="btn  btn-rose btn-round " style="letter-spacing: 2px;font-weight:bold;margin-bottom:50px">
       <!-- <i class="material-icons">phone</i>  Contact Us -->
         Get Enquiry
     </a>
@@ -192,7 +198,7 @@
       <button type="button" class="btn " style="background-color:#e91e63;font-size: 13px;text-transform: capitalize;letter-spacing: 2px;font-weight:bold" >
         Litre
        </button>
-       <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" data-html="true" title="diameter: 500<br>height: 200">
+       <button type="button" class="btn btn-secondary"data-toggle="tooltip" data-placement="left" data-html="true" title="diameter: 500<br>height: 200">
          750
        </button>
        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
@@ -207,13 +213,14 @@
        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"data-html="true" title="diameter: 500<br>height: 200">
          2000
        </button>
+ 
     </div>
 
     
   </div>
   </div>
 </main>
-<div class="contactus-1 section-image" id="contactss" >
+<div class="contactus-1 section-image" id="contacts" >
   <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -302,8 +309,8 @@
 </footer>
 <!--   Core JS Files   -->
 <script src="product.js" charset="utf-8"></script>
-<script src=".../assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src=".../assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src=".../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
 </body>
 </html>
