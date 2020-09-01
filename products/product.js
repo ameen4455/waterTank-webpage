@@ -1,3 +1,17 @@
+$(document).ready(function(){
+  $("#red").click(function(){
+    $("#show2").hide();
+    $("#show1").show();
+    currentSlide(slideIndex2)
+  });
+  $("#blue").click(function(){
+    $("#show2").show();
+    $("#show1").hide();
+    currentSlide2(slideIndex)
+  });
+});
+
+
 $(document).ready(function() {
 
   $('.color-choose input').on('click', function() {
@@ -11,4 +25,6 @@ $(document).ready(function() {
 });
 $('.popover-dismiss').popover({
   trigger: 'focus'
-})
+});
+
+

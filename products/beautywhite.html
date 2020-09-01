@@ -97,22 +97,74 @@
 
 <main class="container" style="margin-top: 100px;">
 
-  <!-- Left Column / Headphones Image -->
-  <div class="left-column">
-    <!-- <img data-image="red" class="active" src="images/5.webp" alt="">
-    <img data-image="blue" src="images/6.webp" alt=""> -->
-    <picture >
-      <source data-image="red" srcset="../assets/img/basic.png" type="image/webp">
-        <source srcset="../assets/img/basic.png" type="image/jpg">
-         
-        <img data-image="red" class="active"src="../assets/img/basic.png" id="resize" style="border-radius: 20px">
-     
-    </picture>
-    <picture>
-      <source data-image="blue" srcset="../assets/img/basicb.png" type="image/webp">
-        <source srcset="../assets/img/basicb.png" type="image/jpg"> 
-        <img data-image="blue" src="../assets/img/basicb.png" style="border-radius: 20px;" id="resize" >
-    </picture>
+  <div class="left-column" id="load-pic">
+    <div  id="show1" class="container-c">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../products/images/White%20-%20Cylinder/front.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../products/images/White%20-%20Cylinder/top.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../products/images/White%20-%20Cylinder/back.png" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="row-c row p-3">
+        <div class="col-sm-4 p-1">
+          <img class="demo cursor" src="../products/images/White%20-%20Cylinder/front.png" style="width:100%"
+               onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="col-sm-4 p-1">
+          <img class="demo cursor" src="../products/images/White%20-%20Cylinder/top.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="col-sm-4 p-1">
+          <img class="demo cursor" src="../products/images/White%20-%20Cylinder/back.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+      </div>
+    </div>
+    <div id="show2" style="display: none" class="container-c">
+      <div class="mySlides2">
+        <div class="numbertext">1 / 6</div>
+        <img src="../products/images/Black%20-%20Cylinder/Side.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">2 / 6</div>
+        <img src="../products/images/Black%20-%20Cylinder/Side.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">3 / 6</div>
+        <img src="../products/images/Black%20-%20Cylinder/Side.png" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides2(-1)">❮</a>
+      <a class="next" onclick="plusSlides2(1)">❯</a>
+
+
+      <div class="row-c row p-3">
+        <div class="col-sm-4 p-1">
+          <img class="demo2 cursor" src="../products/images/Black%20-%20Cylinder/front.png" style="width:100%"
+               onclick="currentSlide2(1)" alt="The Woods">
+        </div>
+        <div class="col-sm-4 p-1">
+          <img class="demo2 cursor" src="../products/images/Black%20-%20Cylinder/front.png" style="width:100%"
+               onclick="currentSlide2(2)" alt="Cinque Terre">
+        </div>
+        <div class="col-sm-4 p-1">
+          <img class="demo2 cursor" src="../products/images/Black%20-%20Cylinder/front.png" style="width:100%"
+               onclick="currentSlide2(3)" alt="Mountains and fjords">
+        </div>
+      </div>
+    </div>
     
     <div class="litre">
     
@@ -161,14 +213,13 @@
 
         <div class="color-choose">
           <div>
-            <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+            <input data-image="red"  type="radio" id="red" name="color" value="red" checked>
             <label for="red"><span></span></label>
           </div>
-          <div>
+          <div >
             <input data-image="blue" type="radio" id="blue" name="color" value="blue">
             <label for="blue"><span></span></label>
           </div>
-        
         </div>
 
       </div>
@@ -308,9 +359,13 @@
   </div>
 </footer>
 <!--   Core JS Files   -->
-<script src="product.js" charset="utf-8"></script>
 <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="product.js" charset="utf-8"></script>
+
+  <script>
+    currentSlide(1);
+  </script>
 </body>
 </html>
